@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;600&display=swap');
 @import "reset.css";
 @import "variable.css";
 
@@ -6,10 +6,17 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body { 
-    font-family: 'Hind', sans-serif;
+    color: #2e362e;
+    font-family: 'Mukta', sans-serif;
     height: 1000vh;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
