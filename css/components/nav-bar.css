@@ -16,28 +16,16 @@
     color: var(--black);
 }
 .nav__notification {
-    background-color: tomato;
-    width: 20px;
-    height:20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 500;
     position: absolute;
     left: 15px;
     bottom: 10px;
 }
+
 .nav__notification__dot {
-    background-color: tomato;
-    width: 5px;
-    height:5px;
-    border-radius: 2.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
     right: -5px;
     top: -5px;
+}
+
+.nav__btn i {
+    font-size: 25px;
 }

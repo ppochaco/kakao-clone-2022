@@ -33,8 +33,8 @@
     </header>
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
+        <div class="user-component user-component__separate">
+            <div class="user-component__column user-component__chat">
                 <img src="짱구.png" class="user-component__avatar user-component__avatar" />
                 <div class="user-component__text">
                     <h4 class="user-component__title">dkwls</h4>
@@ -42,11 +42,24 @@
                 </div>
             </div>
             <div class="user-component__column">
+                <span class="user-component__time">22:33</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column user-component__chat">
+                <img src="카카오.png" class="user-component__avatar user-component__avatar" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Kakao</h4>
+                    <h6 class="user-component__subtitle">Welcome! This is KakaoTalk</h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span class="user-component__time">22:10</span>
             </div>
         </div>
     </main>
     
-
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
@@ -56,7 +69,7 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
-                    <span class="nav__notification">1</span>
+                    <span class="nav__notification badge">1</span>
                     <i class="fas fa-comment fa-lg"></i>
                 </a>
             </li>
@@ -64,8 +77,8 @@
                 <a class="nav__link" href="find.html"><i class="fas fa-search fa-lg"></i></a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__notification__dot"></span>
+                <a class="nav__link badge__dot__mother" href="more.html">
+                    <span class="nav__notification__dot badge__dot"></span>
                     <i class="fas fa-ellipsis-h fa-lg"></i>
                 </a>
             </li>
