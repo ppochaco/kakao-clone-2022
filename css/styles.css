@@ -19,6 +19,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/recommandation.css";
 
 body { 
     color: #2e362e;
