@@ -61,7 +61,7 @@
     opacity: 0.5;
 }
 
-.divider {
+.open-post__members .divider {
     width: 1px;
     height: 12px;
     margin: 0px 5px;
